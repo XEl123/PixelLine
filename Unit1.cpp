@@ -5,6 +5,7 @@
 
 #include "Unit1.h"
 #include "Unit2.h"
+#include "Unit3.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -30,4 +31,9 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 Form2->Show();
 }
 //---------------------------------------------------------------------------
- 
+
+void __fastcall TForm1::SpeedButton1Click(TObject *Sender)
+{
+Form3->Show();
+}
+//---------------------------------------------------------------------------

@@ -21,7 +21,7 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
 {
 Edit1->Text = Form2->Width;
 Edit2->Text = Form2->Height;
-Edit3->Text = Form2->Width + Form2->Height;
+Edit3->Text = Form2->Width * Form2->Height;
 }
 //---------------------------------------------------------------------------
 
