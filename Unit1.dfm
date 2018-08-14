@@ -1,10 +1,10 @@
 object Form1: TForm1
-  Left = 318
-  Top = 189
+  Left = 281
+  Top = 167
   BorderStyle = bsToolWindow
   Caption = 'PixelLine'
   ClientHeight = 219
-  ClientWidth = 353
+  ClientWidth = 354
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -170,6 +170,7 @@ object Form1: TForm1
     Top = 24
     Width = 121
     Height = 21
+    Enabled = False
     TabOrder = 1
   end
   object Edit2: TEdit
@@ -177,6 +178,7 @@ object Form1: TForm1
     Top = 56
     Width = 121
     Height = 21
+    Enabled = False
     TabOrder = 2
   end
   object Edit3: TEdit
@@ -184,6 +186,7 @@ object Form1: TForm1
     Top = 88
     Width = 121
     Height = 21
+    Enabled = False
     TabOrder = 3
   end
   object Button2: TButton
@@ -192,6 +195,7 @@ object Form1: TForm1
     Width = 145
     Height = 33
     Caption = 'Show details'
+    Enabled = False
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13

@@ -8,6 +8,7 @@
 #include "Unit3.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
+#pragma link "CGRID"
 #pragma resource "*.dfm"
 TForm1 *Form1;
 //---------------------------------------------------------------------------
@@ -28,6 +29,10 @@ Edit3->Text = Form2->Width * Form2->Height;
 
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
+Button2->Enabled = true;
+Edit1->Enabled = true;
+Edit2->Enabled = true;
+Edit3->Enabled = true;
 Form2->Show();
 }
 //---------------------------------------------------------------------------
@@ -37,3 +42,4 @@ void __fastcall TForm1::SpeedButton1Click(TObject *Sender)
 Form3->Show();
 }
 //---------------------------------------------------------------------------
+
