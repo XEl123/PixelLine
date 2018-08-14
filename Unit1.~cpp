@@ -29,6 +29,10 @@ Edit3->Text = Form2->Width * Form2->Height;
 
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
+Button2->Enabled = true;
+Edit1->Enabled = true;
+Edit2->Enabled = true;
+Edit3->Enabled = true;
 Form2->Show();
 }
 //---------------------------------------------------------------------------

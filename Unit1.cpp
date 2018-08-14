@@ -43,3 +43,10 @@ Form3->Show();
 }
 //---------------------------------------------------------------------------
 
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+ColorDialog1->Execute();
+Form2->Color = ColorDialog1->Color;
+}
+//---------------------------------------------------------------------------
+

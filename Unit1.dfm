@@ -205,4 +205,24 @@ object Form1: TForm1
     TabOrder = 4
     OnClick = Button2Click
   end
+  object Button3: TButton
+    Left = 248
+    Top = 56
+    Width = 75
+    Height = 25
+    Caption = 'Color'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = Button3Click
+  end
+  object ColorDialog1: TColorDialog
+    Ctl3D = True
+    Left = 256
+    Top = 112
+  end
 end

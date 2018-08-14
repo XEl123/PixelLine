@@ -41,3 +41,4 @@ ReleaseCapture();
 SendMessage(Form2->Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);        
 }
 //---------------------------------------------------------------------------
+
